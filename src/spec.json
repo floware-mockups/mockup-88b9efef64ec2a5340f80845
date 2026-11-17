@@ -1,0 +1,210 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo per consultare i consumi mensili degli edifici, confrontare le tendenze e registrare nuove rilevazioni. Il grafico mensile è rappresentato dai dati tabellari della dashboard.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica energetica",
+      "description": "Consumi mensili inventati per edifici gestiti da organizzazioni di fantasia.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−4,2%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Rilevazioni registrate",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Gennaio",
+          "1.820",
+          "2,1"
+        ],
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Febbraio",
+          "1.744",
+          "−4,2"
+        ],
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Marzo",
+          "1.690",
+          "−3,1"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Gennaio",
+          "1.360",
+          "−1,8"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Febbraio",
+          "1.420",
+          "4,4"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Marzo",
+          "1.315",
+          "−7,4"
+        ],
+        [
+          "Officina Brina",
+          "Custodi di Nubi",
+          "Gennaio",
+          "2.180",
+          "3,6"
+        ],
+        [
+          "Officina Brina",
+          "Custodi di Nubi",
+          "Febbraio",
+          "2.055",
+          "−5,7"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ]
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni mensili",
+      "description": "Tabella filtrabile delle misurazioni energetiche; usa la ricerca e i filtri per confrontare edifici e mesi.",
+      "metrics": [
+        {
+          "label": "Rilevazioni disponibili",
+          "value": "8"
+        },
+        {
+          "label": "Consumo medio",
+          "value": "1.560 kWh"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Gennaio",
+          "1.820",
+          "2,1"
+        ],
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Febbraio",
+          "1.744",
+          "−4,2"
+        ],
+        [
+          "Torre Lumo",
+          "Custodi di Nubi",
+          "Marzo",
+          "1.690",
+          "−3,1"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Gennaio",
+          "1.360",
+          "−1,8"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Febbraio",
+          "1.420",
+          "4,4"
+        ],
+        [
+          "Casa Vela",
+          "Orizzonte Lento",
+          "Marzo",
+          "1.315",
+          "−7,4"
+        ],
+        [
+          "Officina Brina",
+          "Custodi di Nubi",
+          "Gennaio",
+          "2.180",
+          "3,6"
+        ],
+        [
+          "Officina Brina",
+          "Custodi di Nubi",
+          "Febbraio",
+          "2.055",
+          "−5,7"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ]
+    },
+    {
+      "id": "nuova-rilevazione",
+      "title": "Registra una rilevazione",
+      "description": "Inserisci i dati mensili di consumo di un edificio inventato.",
+      "metrics": [],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ]
+    }
+  ]
+}
